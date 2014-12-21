@@ -349,21 +349,216 @@
     {
       "trigger": "gl.getTexParameter(${0:enum_target}, enum_pname)\tGLCompletion",
       "contents": "getTexParameter(${0:enum_target}, enum_pname)"
+    },
+    // Blend Functions
+    {
+      "trigger": "gl.blendEquation(${0:enum_mode})\tGLCompletion",
+      "contents": "blendEquation(${0:enum_mode})"
+    },
+    {
+      "trigger": "gl.blendEquationSeparate(${0:enum_modeRGB}, enum_modeAlpha)\tGLCompletion",
+      "contents": "blendEquationSeparate(${0:enum_modeRGB}, enum_modeAlpha)"
+    },
+    {
+      "trigger": "gl.blendFunc(${0:enum_sfactor}, enum_dfactor)\tGLCompletion",
+      "contents": "blendFunc(${0:enum_sfactor}, enum_dfactor)"
+    },
+    {
+      "trigger": "gl.blendFuncSeparate(${0:enum_srcRGB}, enum_dstRGB, enum_srcAlpha, enum_dstAlpha)\tGLCompletion",
+      "contents": "blendFuncSeparate(${0:enum_srcRGB}, enum_dstRGB, enum_srcAlpha, enum_dstAlpha)"
+    },
+    {
+      "trigger": "gl.blendColor(${0:float_red}, float_green, float_blue, float_alpha)\tGLCompletion",
+      "contents": "blendColor(${0:float_red}, float_green, float_blue, float_alpha)"
+    },
+    // Stencil Buffer Functions
+    {
+      "trigger": "gl.clearStencil(${0:int_a})\tGLCompletion",
+      "contents": "clearStencil(${0:int_a})"
+    },
+    {
+      "trigger": "gl.stencilFunc(${0:enum_func}, int_ref, int_mask)\tGLCompletion",
+      "contents": "stencilFunc(${0:enum_func}, int_ref, int_mask)"
+    },
+    {
+      "trigger": "gl.stencilFuncSeparate(${0:enum_face}, enum_func, int_ref, int_mask)\tGLCompletion",
+      "contents": "stencilFuncSeparate(${0:enum_face}, enum_func, int_ref, int_mask)"
+    },
+    {
+      "trigger": "gl.stencilMask(${0:unit_mask})\tGLCompletion",
+      "contents": "stencilMask(${0:unit_mask})"
+    },
+    {
+      "trigger": "gl.stencilMaskSeparate(${0:enum_face}, unit_mask)\tGLCompletion",
+      "contents": "stencilMaskSeparate(${0:enum_face}, unit_mask)"
+    },
+    {
+      "trigger": "gl.stencilOp(${0:enum_fail}, enum_zfail, enum_zpass)\tGLCompletion",
+      "contents": "stencilOp(${0:enum_fail}, enum_zfail, enum_zpass)"
+    },
+    {
+      "trigger": "gl.stencilOpSeparate(${0:enum_face}, enum_fail, enum_zfail, enum_zpass)\tGLCompletion",
+      "contents": "stencilOpSeparate(${0:enum_face}, enum_fail, enum_zfail, enum_zpass)"
+    },
+    // Depth Buffer Functions
+    {
+      "trigger": "gl.depthFunc(${0:enum_func})\tGLCompletion",
+      "contents": "depthFunc(${0:enum_func})"
+    },
+    {
+      "trigger": "gl.depthMask(${0:boolean_flag})\tGLCompletion",
+      "contents": "depthMask(${0:boolean_flag})"
+    },
+    {
+      "trigger": "gl.depthRange(${0:float_zNear}, float_zFar)\tGLCompletion",
+      "contents": "depthRange(${0:float_zNear}, float_zFar)"
+    },
+    {
+      "trigger": "gl.clearDepth(${0:float_depth})\tGLCompletion",
+      "contents": "clearDepth(${0:float_depth})"
+    },
+    {
+      "trigger": "gl.polygonOffset(${0:float_factor}, float_units)\tGLCompletion",
+      "contents": "polygonOffset(${0:float_factor}, float_units)"
+    },
+    // Rendering Buffer Functions
+    {
+      "trigger": "gl.createRenderbuffer()\tGLCompletion",
+      "contents": "createRenderbuffer()"
+    },
+    {
+      "trigger": "gl.deleteRenderbuffer(${0:WebGLRenderBuffer_renderBuffer})\tGLCompletion",
+      "contents": "deleteRenderbuffer(${0:WebGLRenderBuffer_renderBuffer})"
+    },
+    {
+      "trigger": "gl.bindRenderbuffer(${0:enum_target}, WebGLRenderBuffer_renderBuffer)\tGLCompletion",
+      "contents": "bindRenderbuffer(${0:enum_target}, WebGLRenderBuffer_renderBuffer)"
+    },
+    {
+      "trigger": "gl.renderbufferStorage(${0:enum_target}, enum_internalformat, int_width, int_height)\tGLCompletion",
+      "contents": "renderbufferStorage(${0:enum_target}, enum_internalformat, int_width, int_height)"
+    },
+    {
+      "trigger": "gl.framebufferRenderbuffer(${0:enum_target}, enum_attachment, enum_renderBufferTarget, WebGLRenderBuffer_renderBuffer)\tGLCompletion",
+      "contents": "framebufferRenderbuffer(${0:enum_target}, enum_attachment, enum_renderBufferTarget, WebGLRenderBuffer_renderBuffer)"
+    },
+    {
+      "trigger": "gl.isRenderbuffer(${0:WebGLRenderBuffer_renderBuffer})\tGLCompletion",
+      "contents": "isRenderbuffer(${0:WebGLRenderBuffer_renderBuffer})"
+    },
+    {
+      "trigger": "gl.getRenderbufferParameter(${0:enum_target}, enum_pname)\tGLCompletion",
+      "contents": "getRenderbufferParameter(${0:enum_target}, enum_pname)"
+    },
+    // Frame Buffer Functions
+    {
+      "trigger": "gl.createFramebuffer()\tGLCompletion",
+      "contents": "createFramebuffer()"
+    },
+    {
+      "trigger": "gl.deleteFramebuffer(${0:WebGLFramebuffer_framebuffer})\tGLCompletion",
+      "contents": "deleteFramebuffer(${0:WebGLFramebuffer_framebuffer})"
+    },  
+    {
+      "trigger": "gl.bindFramebuffer(${0:enum_target}, WebGLFramebuffer_framebuffer)\tGLCompletion",
+      "contents": "bindFramebuffer(${0:enum_target}, WebGLFramebuffer_framebuffer)"
+    },  
+    {
+      "trigger": "gl.checkFramebufferStatus(${0:enum_target})\tGLCompletion",
+      "contents": "checkFramebufferStatus(${0:enum_target})"
+    },  
+    {
+      "trigger": "gl.isFramebuffer(${0:WebGLFramebuffer_framebuffer})\tGLCompletion",
+      "contents": "isFramebuffer(${0:WebGLFramebuffer_framebuffer})"
+    },  
+    {
+      "trigger": "gl.framebufferTexture2D(${0:enum_target}, enum_attachment, enum_texTarget, WebGLTexture_texture, int_level)\tGLCompletion",
+      "contents": "framebufferTexture2D(${0:enum_target}, enum_attachment, enum_texTarget, WebGLTexture_texture, int_level)"
+    },  
+    {
+      "trigger": "gl.getFramebufferAttachmentParameter(${0:enum_target}, enum_attachment, enum_pname)\tGLCompletion",
+      "contents": "getFramebufferAttachmentParameter(${0:enum_target}, enum_attachment, enum_pname)"
+    },  
+    {
+      "trigger": "gl.colorMask(${0:boolean_red}, boolean_green, boolean_blue, boolean_alpha)\tGLCompletion",
+      "contents": "colorMask(${0:boolean_red}, boolean_green, boolean_blue, boolean_alpha)"
+    },  
+    {
+      "trigger": "gl.readPixels(${0:int_x}, int_y, int_width, int_height, enum_format, enum_type, ArrayBufferView_pixels)\tGLCompletion",
+      "contents": "readPixels(${0:int_x}, int_y, int_width, int_height, enum_format, enum_type, ArrayBufferView_pixels)"
+    },  
+    {
+      "trigger": "gl.pixelStorei(${0:enum_pname}, any_param)\tGLCompletion",
+      "contents": "pixelStorei(${0:enum_pname}, any_param)"
+    },
+    // MISC Functions
+    {
+      "trigger": "gl.enable(${0:enum_cap})\tGLCompletion",
+      "contents": "enable(${0:enum_cap})"
+    },
+    {
+      "trigger": "gl.disable(${0:enum_cap})\tGLCompletion",
+      "contents": "disable(${0:enum_cap})"
+    },
+    {
+      "trigger": "gl.isEnabled(${0:enum_cap})\tGLCompletion",
+      "contents": "isEnabled(${0:enum_cap})"
+    },
+    {
+      "trigger": "gl.cullFace(${0:enum_mode})\tGLCompletion",
+      "contents": "cullFace(${0:enum_mode})"
+    },
+    {
+      "trigger": "gl.frontFace(${0:enum_mode})\tGLCompletion",
+      "contents": "frontFace(${0:enum_mode})"
+    },
+    {
+      "trigger": "gl.clear(${0:unit_mask})\tGLCompletion",
+      "contents": "clear(${0:unit_mask})"
+    },
+    {
+      "trigger": "gl.clearColor(${0:float_red}, float_green, float_blue, float_alpha)\tGLCompletion",
+      "contents": "clearColor(${0:float_red}, float_green, float_blue, float_alpha)"
+    },
+    {
+      "trigger": "gl.lineWidth(${0:float_width})\tGLCompletion",
+      "contents": "lineWidth(${0:float_width})"
+    },
+    {
+      "trigger": "gl.scissor(${0:int_x}, int_y, int_width, int_height)\tGLCompletion",
+      "contents": "scissor(${0:int_x}, int_y, int_width, int_height)"
+    },
+    {
+      "trigger": "gl.sampleCoverage(${0:float_value}, boolean_invert)\tGLCompletion",
+      "contents": "sampleCoverage(${0:float_value}, boolean_invert)"
+    },
+    {
+      "trigger": "gl.getError()\tGLCompletion",
+      "contents": "getError()"
+    },
+    {
+      "trigger": "gl.hint(${0:enum_target}, enum_mode)\tGLCompletion",
+      "contents": "hint(${0:enum_target}, enum_mode)"
+    },
+    {
+      "trigger": "gl.getSupportedExtensions()\tGLCompletion",
+      "contents": "getSupportedExtensions()"
+    },
+    {
+      "trigger": "gl.getExtension(${0:string_name})\tGLCompletion",
+      "contents": "getExtension(${0:string_name})"
+    },
+    {
+      "trigger": "gl.getContextAttributes()\tGLCompletion",
+      "contents": "getContextAttributes()"
+    },
+    {
+      "trigger": "gl.isContextLost()\tGLCompletion",
+      "contents": "isContextLost()"
+    },
+    {
+      "trigger": "gl.getParameter(${0:enum_pname})\tGLCompletion",
+      "contents": "getParameter(${0:enum_pname})"
     }
-    // Blend Functions[TODO]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   ]
 }
