@@ -15,5 +15,81 @@
       "trigger": "gl.clear()\tGLCompletion",
       "contents": "clear(${0:arg|arg...})"
     },
+    {
+      "trigger": "gl.createShader()\tGLCompletion",
+      "contents": "createShader(${0:SHADER_TYPE})"
+    },
+    {
+      "trigger": "gl.shaderSource()\tGLCompletion",
+      "contents": "shaderSource(${0:shader}, GLSLScript)"
+    },
+    {
+      "trigger": "gl.compileShader()\tGLCompletion",
+      "contents": "compileShader(${0:shader})"
+    },
+    {
+      "trigger": "gl.getShaderParameter()\tGLCompletion",
+      "contents": "getShaderParameter(${0:shader}, gl.COMPILE_STATUS)"
+    },
+    {
+      "trigger": "gl.getShaderInfoLog()\tGLCompletion",
+      "contents": "getShaderInfoLog(${0:shader})"
+    },
+    {
+      "trigger": "gl.createProgram()\tGLCompletion",
+      "contents": "createProgram()"
+    },
+    {
+      "trigger": "gl.attachShader()\tGLCompletion",
+      "contents": "attachShader(${0:program}, shader)"
+    },
+    {
+      "trigger": "gl.linkProgram()\tGLCompletion",
+      "contents": "linkProgram(${0:program})"
+    },
+    {
+      "trigger": "gl.getProgramParameter()\tGLCompletion",
+      "contents": "getProgramParameter(${0:program}, gl.LINK_STATUS)"
+    },
+    {
+      "trigger": "gl.useProgram()\tGLCompletion",
+      "contents": "useProgram()"
+    },
+    {
+      "trigger": "gl.getProgramInfoLog()\tGLCompletion",
+      "contents": "getProgramInfoLog(${0:program})"
+    },
+    {
+      "trigger": "gl.createBuffer()\tGLCompletion",
+      "contents": "createBuffer()"
+    },
+    {
+      "trigger": "gl.bindBuffer()\tGLCompletion",
+      "contents": "bindBuffer(${0:BUFFER_TYPE}, vbo)"
+    },
+    {
+      "trigger": "gl.bufferData()\tGLCompletion",
+      "contents": "bufferData(${0:BUFFER_TYPE}, TYPE, DRAW_TYPE)"
+    },
+    {
+      "trigger": "gl.createTexture()\tGLCompletion",
+      "contents": "createTexture()"
+    },
+    {
+      "trigger": "gl.bindTexture()\tGLCompletion",
+      "contents": "bindTexture(${0:TEXTURE_TYPE}, texture)"
+    },
+    {
+      "trigger": "gl.texImage2D()\tGLCompletion",
+      "contents": "texImage2D(${0:TEXTURE_TYPE}, NUMBER, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, image)"
+    },
+    {
+      "trigger": "gl.generateMipmap()\tGLCompletion",
+      "contents": "generateMipmap(${0:TEXTURE_TYPE})"
+    },
+    {
+      "trigger": "gl.bindTexture()\tGLCompletion",
+      "contents": "bindTexture(${0:TEXTURE_TYPE}, null)"
+    },
   ]
 }

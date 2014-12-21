@@ -18,6 +18,428 @@
     {
       "trigger": "gl.LINK_STATUS\tGLCompletion",
       "contents": "LINK_STATUS"
+    },
+    {
+      "trigger": "gl.TEXTURE_2D\tGLCompletion",
+      "contents": "TEXTURE_2D"
+    },
+    {
+      "trigger": "gl.TRIANGLES\tGLCompletion",
+      "contents": "TRIANGLES"
+    },
+    {
+      "trigger": "gl.UNSIGNED_SHORT\tGLCompletion",
+      "contents": "UNSIGNED_SHORT"
+    },
+    {
+      "trigger": "gl.UNSIGNED_BYTE\tGLCompletion",
+      "contents": "UNSIGNED_BYTE"
+    },
+    {
+      "trigger": "gl.FLOAT\tGLCompletion",
+      "contents": "FLOAT"
+    },
+    {
+      "trigger": "gl.RGBA\tGLCompletion",
+      "contents": "RGBA"
+    },
+    {
+      "trigger": "gl.SRC_ALPHA\tGLCompletion",
+      "contents": "SRC_ALPHA"
+    },
+    {
+      "trigger": "gl.ONE_MINUS_SRC_ALPHA\tGLCompletion",
+      "contents": "ONE_MINUS_SRC_ALPHA"
+    },
+    {
+      "trigger": "gl.ARRAY_BUFFER\tGLCompletion",
+      "contents": "ARRAY_BUFFER"
+    },
+    {
+      "trigger": "gl.ELEMENT_ARRAY_BUFFER\tGLCompletion",
+      "contents": "ELEMENT_ARRAY_BUFFER"
+    },
+    {
+      "trigger": "gl.COLOR_BUFFER_BIT\tGLCompletion",
+      "contents": "COLOR_BUFFER_BIT"
+    },
+    {
+      "trigger": "gl.DEPTH_BUFFER_BIT\tGLCompletion",
+      "contents": "DEPTH_BUFFER_BIT"
+    },
+
+    {
+      "trigger": "gl.STATIC_DRAW\tGLCompletion",
+      "contents": "STATIC_DRAW"
+    },
+    {
+      "trigger": "gl.LEQUAL\tGLCompletion",
+      "contents": "LEQUAL"
+    },
+    {
+      "trigger": "gl.ZERO\tGLCompletion",
+      "contents": "ZERO"
+    },
+    {
+      "trigger": "gl.ONE\tGLCompletion",
+      "contents": "ONE"
+    },
+    {
+      "trigger": "gl.TEXTURE0\tGLCompletion",
+      "contents": "TEXTURE0"
+    },
+    // gl.getParameter() would get following parameters.
+    {
+      "trigger": "gl.ACTIVE_TEXTURE\tGLCompletion",
+      "contents": "ACTIVE_TEXTURE"
+    },
+    {
+      "trigger": "gl.ALIASED_LINE_WIDTH_RANGE\tGLCompletion",
+      "contents": "ALIASED_LINE_WIDTH_RANGE"
+    },
+    {
+      "trigger": "gl.ALIASED_POINT_SIZE_RANGE\tGLCompletion",
+      "contents": "ALIASED_POINT_SIZE_RANGE"
+    },
+    {
+      "trigger": "gl.ALPHA_BITS\tGLCompletion",
+      "contents": "ALPHA_BITS"
+    },
+    {
+      "trigger": "gl.ARRAY_BUFFER_BINDING\tGLCompletion",
+      "contents": "ARRAY_BUFFER_BINDING"
+    },
+    {
+      "trigger": "gl.BLEND\tGLCompletion",
+      "contents": "BLEND"
+    },
+    {
+      "trigger": "gl.BLEND_COLOR\tGLCompletion",
+      "contents": "BLEND_COLOR"
+    },
+    {
+      "trigger": "gl.BLEND_DST_ALPHA\tGLCompletion",
+      "contents": "BLEND_DST_ALPHA"
+    },
+    {
+      "trigger": "gl.BLEND_DST_RGB\tGLCompletion",
+      "contents": "BLEND_DST_RGB"
+    },
+    {
+      "trigger": "gl.BLEND_EQUATION_ALPHA\tGLCompletion",
+      "contents": "BLEND_EQUATION_ALPHA"
+    },
+    {
+      "trigger": "gl.BLEND_EQUATION_RGB\tGLCompletion",
+      "contents": "BLEND_EQUATION_RGB"
+    },
+    {
+      "trigger": "gl.BLEND_SRC_ALPHA\tGLCompletion",
+      "contents": "BLEND_SRC_ALPHA"
+    },
+    {
+      "trigger": "gl.BLEND_SRC_RGB\tGLCompletion",
+      "contents": "BLEND_SRC_RGB"
+    },
+    {
+      "trigger": "gl.BLUE_BITS\tGLCompletion",
+      "contents": "BLUE_BITS"
+    },
+    {
+      "trigger": "gl.COLOR_CLEAR_VALUE\tGLCompletion",
+      "contents": "COLOR_CLEAR_VALUE"
+    },
+    {
+      "trigger": "gl.COLOR_WRITEMASK\tGLCompletion",
+      "contents": "COLOR_WRITEMASK"
+    },
+    {
+      "trigger": "gl.COMPRESSED_TEXTURE_FORMATS\tGLCompletion",
+      "contents": "COMPRESSED_TEXTURE_FORMATS"
+    },
+    {
+      "trigger": "gl.COMPRESSED_TEXTURE_FORMATS\tGLCompletion",
+      "contents": "COMPRESSED_TEXTURE_FORMATS"
+    },
+    {
+      "trigger": "gl.CULL_FACE\tGLCompletion",
+      "contents": "CULL_FACE"
+    },
+    {
+      "trigger": "gl.CULL_FACE_MODE\tGLCompletion",
+      "contents": "CULL_FACE_MODE"
+    },
+    {
+      "trigger": "gl.CURRENT_PROGRAM\tGLCompletion",
+      "contents": "CURRENT_PROGRAM"
+    },
+    {
+      "trigger": "gl.DEPTH_BITS\tGLCompletion",
+      "contents": "DEPTH_BITS"
+    },
+    {
+      "trigger": "gl.DEPTH_CLEAR_VALUE\tGLCompletion",
+      "contents": "DEPTH_CLEAR_VALUE"
+    },
+    {
+      "trigger": "gl.DEPTH_FUNC\tGLCompletion",
+      "contents": "DEPTH_FUNC"
+    },
+    {
+      "trigger": "gl.DEPTH_RANGE\tGLCompletion",
+      "contents": "DEPTH_RANGE"
+    },
+    {
+      "trigger": "gl.DEPTH_RANGE\tGLCompletion",
+      "contents": "DEPTH_RANGE"
+    },
+    {
+      "trigger": "gl.DEPTH_TEST\tGLCompletion",
+      "contents": "DEPTH_TEST"
+    },
+    {
+      "trigger": "gl.DEPTH_WRITEMASK\tGLCompletion",
+      "contents": "DEPTH_WRITEMASK"
+    },
+    {
+      "trigger": "gl.DITHER\tGLCompletion",
+      "contents": "DITHER"
+    },
+    {
+      "trigger": "gl.ELEMENT_ARRAY_BUFFER_BINDING\tGLCompletion",
+      "contents": "ELEMENT_ARRAY_BUFFER_BINDING"
+    },
+    {
+      "trigger": "gl.FRAMEBUFFER_BINDING\tGLCompletion",
+      "contents": "FRAMEBUFFER_BINDING"
+    },
+    {
+      "trigger": "gl.FRONT_FACE\tGLCompletion",
+      "contents": "FRONT_FACE"
+    },
+    {
+      "trigger": "gl.GENERATE_MIPMAP_HINT\tGLCompletion",
+      "contents": "GENERATE_MIPMAP_HINT"
+    },
+    {
+      "trigger": "gl.GREEN_BITS\tGLCompletion",
+      "contents": "GREEN_BITS"
+    },
+    {
+      "trigger": "gl.LINE_WIDTH\tGLCompletion",
+      "contents": "LINE_WIDTH"
+    },
+    {
+      "trigger": "gl.MAX_COMBINED_TEXTURE_IMAGE_UNITS\tGLCompletion",
+      "contents": "MAX_COMBINED_TEXTURE_IMAGE_UNITS"
+    },
+    {
+      "trigger": "gl.MAX_CUBE_MAP_TEXTURE_SIZE\tGLCompletion",
+      "contents": "MAX_CUBE_MAP_TEXTURE_SIZE"
+    },
+    {
+      "trigger": "gl.MAX_FRAGMENT_UNIFORM_VECTORS\tGLCompletion",
+      "contents": "MAX_FRAGMENT_UNIFORM_VECTORS"
+    },
+    {
+      "trigger": "gl.MAX_RENDERBUFFER_SIZE\tGLCompletion",
+      "contents": "MAX_RENDERBUFFER_SIZE"
+    },
+    {
+      "trigger": "gl.MAX_TEXTURE_IMAGE_UNITS\tGLCompletion",
+      "contents": "MAX_TEXTURE_IMAGE_UNITS"
+    },
+    {
+      "trigger": "gl.MAX_TEXTURE_SIZE\tGLCompletion",
+      "contents": "MAX_TEXTURE_SIZE"
+    },
+    {
+      "trigger": "gl.MAX_VARYING_VECTORS\tGLCompletion",
+      "contents": "MAX_VARYING_VECTORS"
+    },
+    {
+      "trigger": "gl.MAX_VERTEX_ATTRIBS\tGLCompletion",
+      "contents": "MAX_VERTEX_ATTRIBS"
+    },
+    {
+      "trigger": "gl.MAX_VERTEX_TEXTURE_IMAGE_UNITS\tGLCompletion",
+      "contents": "MAX_VERTEX_TEXTURE_IMAGE_UNITS"
+    },
+    {
+      "trigger": "gl.MAX_VERTEX_UNIFORM_VECTORS\tGLCompletion",
+      "contents": "MAX_VERTEX_UNIFORM_VECTORS"
+    },
+    {
+      "trigger": "gl.MAX_VIEWPORT_DIMS\tGLCompletion",
+      "contents": "MAX_VIEWPORT_DIMS"
+    },
+    {
+      "trigger": "gl.NUM_COMPRESSED_TEXTURE_FORMATS\tGLCompletion",
+      "contents": "NUM_COMPRESSED_TEXTURE_FORMATS"
+    },
+    {
+      "trigger": "gl.PACK_ALIGNMENT\tGLCompletion",
+      "contents": "PACK_ALIGNMENT"
+    },
+    {
+      "trigger": "gl.POLYGON_OFFSET_FACTOR\tGLCompletion",
+      "contents": "POLYGON_OFFSET_FACTOR"
+    },
+    {
+      "trigger": "gl.POLYGON_OFFSET_FILL\tGLCompletion",
+      "contents": "POLYGON_OFFSET_FILL"
+    },
+    {
+      "trigger": "gl.POLYGON_OFFSET_UNITS\tGLCompletion",
+      "contents": "POLYGON_OFFSET_UNITS"
+    },
+    {
+      "trigger": "gl.RED_BITS\tGLCompletion",
+      "contents": "RED_BITS"
+    },
+    {
+      "trigger": "gl.RENDERBUFFER_BINDING\tGLCompletion",
+      "contents": "RENDERBUFFER_BINDING"
+    },
+    {
+      "trigger": "gl.RENDERER\tGLCompletion",
+      "contents": "RENDERER"
+    },
+    {
+      "trigger": "gl.SAMPLE_BUFFERS\tGLCompletion",
+      "contents": "SAMPLE_BUFFERS"
+    },
+    {
+      "trigger": "gl.SAMPLE_COVERAGE_INVERT\tGLCompletion",
+      "contents": "SAMPLE_COVERAGE_INVERT"
+    },
+    {
+      "trigger": "gl.SAMPLE_COVERAGE_VALUE\tGLCompletion",
+      "contents": "SAMPLE_COVERAGE_VALUE"
+    },
+    {
+      "trigger": "gl.SAMPLES\tGLCompletion",
+      "contents": "SAMPLES"
+    },
+    {
+      "trigger": "gl.SCISSOR_BOX\tGLCompletion",
+      "contents": "SCISSOR_BOX"
+    },
+    {
+      "trigger": "gl.SCISSOR_TEST\tGLCompletion",
+      "contents": "SCISSOR_TEST"
+    },
+    {
+      "trigger": "gl.SHADING_LANGUAGE_VERSION\tGLCompletion",
+      "contents": "SHADING_LANGUAGE_VERSION"
+    },
+    {
+      "trigger": "gl.STENCIL_BACK_FAIL\tGLCompletion",
+      "contents": "STENCIL_BACK_FAIL"
+    },
+    {
+      "trigger": "gl.STENCIL_BACK_FUNC\tGLCompletion",
+      "contents": "STENCIL_BACK_FUNC"
+    },
+    {
+      "trigger": "gl.STENCIL_BACK_PASS_DEPTH_FAIL\tGLCompletion",
+      "contents": "STENCIL_BACK_PASS_DEPTH_FAIL"
+    },
+    {
+      "trigger": "gl.STENCIL_BACK_PASS_DEPTH_PASS\tGLCompletion",
+      "contents": "STENCIL_BACK_PASS_DEPTH_PASS"
+    },
+    {
+      "trigger": "gl.STENCIL_BACK_REF\tGLCompletion",
+      "contents": "STENCIL_BACK_REF"
+    },
+    {
+      "trigger": "gl.STENCIL_BACK_VALUE_MASK\tGLCompletion",
+      "contents": "STENCIL_BACK_VALUE_MASK"
+    },
+    {
+      "trigger": "gl.STENCIL_BACK_WRITEMASK\tGLCompletion",
+      "contents": "STENCIL_BACK_WRITEMASK"
+    },
+    {
+      "trigger": "gl.STENCIL_BITS\tGLCompletion",
+      "contents": "STENCIL_BITS"
+    },
+    {
+      "trigger": "gl.STENCIL_CLEAR_VALUE\tGLCompletion",
+      "contents": "STENCIL_CLEAR_VALUE"
+    },
+    {
+      "trigger": "gl.STENCIL_FAIL\tGLCompletion",
+      "contents": "STENCIL_FAIL"
+    },
+    {
+      "trigger": "gl.STENCIL_FUNC\tGLCompletion",
+      "contents": "STENCIL_FUNC"
+    },
+    {
+      "trigger": "gl.STENCIL_PASS_DEPTH_FAIL\tGLCompletion",
+      "contents": "STENCIL_PASS_DEPTH_FAIL"
+    },
+    {
+      "trigger": "gl.STENCIL_PASS_DEPTH_PASS\tGLCompletion",
+      "contents": "STENCIL_PASS_DEPTH_PASS"
+    },
+    {
+      "trigger": "gl.STENCIL_REF\tGLCompletion",
+      "contents": "STENCIL_REF"
+    },
+    {
+      "trigger": "gl.STENCIL_TEST\tGLCompletion",
+      "contents": "STENCIL_TEST"
+    },
+    {
+      "trigger": "gl.STENCIL_VALUE_MASK\tGLCompletion",
+      "contents": "STENCIL_VALUE_MASK"
+    },
+    {
+      "trigger": "gl.STENCIL_WRITEMASK\tGLCompletion",
+      "contents": "STENCIL_WRITEMASK"
+    },
+    {
+      "trigger": "gl.SUBPIXEL_BITS\tGLCompletion",
+      "contents": "SUBPIXEL_BITS"
+    },
+    {
+      "trigger": "gl.TEXTURE_BINDING_2D\tGLCompletion",
+      "contents": "TEXTURE_BINDING_2D"
+    },
+    {
+      "trigger": "gl.TEXTURE_BINDING_CUBE_MAP\tGLCompletion",
+      "contents": "TEXTURE_BINDING_CUBE_MAP"
+    },
+    {
+      "trigger": "gl.UNPACK_ALIGNMENT\tGLCompletion",
+      "contents": "UNPACK_ALIGNMENT"
+    },
+    {
+      "trigger": "gl.UNPACK_COLORSPACE_CONVERSION_WEBGL\tGLCompletion",
+      "contents": "UNPACK_COLORSPACE_CONVERSION_WEBGL"
+    },
+    {
+      "trigger": "gl.UNPACK_FLIP_Y_WEBGL\tGLCompletion",
+      "contents": "UNPACK_FLIP_Y_WEBGL"
+    },
+    {
+      "trigger": "gl.UNPACK_PREMULTIPLY_ALPHA_WEBGL\tGLCompletion",
+      "contents": "UNPACK_PREMULTIPLY_ALPHA_WEBGL"
+    },
+    {
+      "trigger": "gl.VENDOR\tGLCompletion",
+      "contents": "VENDOR"
+    },
+    {
+      "trigger": "gl.VERSION\tGLCompletion",
+      "contents": "VERSION"
+    },
+    {
+      "trigger": "gl.VIEWPORT\tGLCompletion",
+      "contents": "VIEWPORT"
     }
   ]
 }
