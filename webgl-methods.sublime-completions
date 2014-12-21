@@ -3,93 +3,216 @@
 
   "completions":
   [
+    // Buffer Functions
     {
-      "trigger": "gl.clearDepth\tGLCompletion",
-      "contents": "clearDepth(${0:depth})"
+      "trigger": "gl.createBuffer\tGLCompletion",
+      "contents": "createBuffer()"
     },
     {
-      "trigger": "gl.clearColor(${0:r}, g, b, a)\tGLCompletion",
-      "contents": "clearColor(${0:r}, g, b, a)"
+      "trigger": "gl.deleteBuffer(${0:WebGLBuffer_buffer})\tGLCompletion",
+      "contents": "deleteBuffer(${0:WebGLBuffer_buffer})"
     },
     {
-      "trigger": "gl.clear()\tGLCompletion",
-      "contents": "clear(${0:arg|arg...})"
+      "trigger": "gl.bindBuffer(${0:enum_target}, WebGLBuffer_buffer)\tGLCompletion",
+      "contents": "bindBuffer(${0:enum_target}, WebGLBuffer_buffer)"
     },
     {
-      "trigger": "gl.createShader()\tGLCompletion",
-      "contents": "createShader(${0:SHADER_TYPE})"
+      "trigger": "gl.bufferData(${0:enum_target}, Object_data, enum_usage)\tGLCompletion",
+      "contents": "bufferData(${0:enum_target}, Object_data, enum_usage)"
     },
     {
-      "trigger": "gl.shaderSource()\tGLCompletion",
-      "contents": "shaderSource(${0:shader}, GLSLScript)"
+      "trigger": "gl.bufferData(${0:enum_target}, unit_size, enum_usage)\tGLCompletion",
+      "contents": "bufferData(${0:enum_target}, unit_size, enum_usage)"
     },
     {
-      "trigger": "gl.compileShader()\tGLCompletion",
-      "contents": "compileShader(${0:shader})"
+      "trigger": "gl.bufferSubData(${0:enum_target}, Object_data, enum_usage)\tGLCompletion",
+      "contents": "bufferSubData(${0:enum_target}, Object_data, enum_usage)"
     },
     {
-      "trigger": "gl.getShaderParameter()\tGLCompletion",
-      "contents": "getShaderParameter(${0:shader}, gl.COMPILE_STATUS)"
+      "trigger": "gl.getBufferParameter(${0:enum_target}, enum_pname)\tGLCompletion",
+      "contents": "getBufferParameter(${0:enum_target}, enum_pname)"
     },
     {
-      "trigger": "gl.getShaderInfoLog()\tGLCompletion",
-      "contents": "getShaderInfoLog(${0:shader})"
+      "trigger": "gl.isBuffer(${0:WebGLBuffer_buffer})\tGLCompletion",
+      "contents": "isBuffer(${0:WebGLBuffer_buffer})"
     },
+    // Shader Functions
+    {
+      "trigger": "gl.createShader(${0:enum_type})\tGLCompletion",
+      "contents": "createShader(${0:enum_type})"
+    },
+    {
+      "trigger": "gl.deleteShader(${0:WebGLShader_shader})\tGLCompletion",
+      "contents": "deleteShader(${0:WebGLShader_shader})"
+    },
+    {
+      "trigger": "gl.shaderSource(${0:WebGLShader_shader}, string_source)\tGLCompletion",
+      "contents": "shaderSource(${0:WebGLShader_shader}, string_source)"
+    },
+    {
+      "trigger": "gl.getShaderSource(${0:WebGLShader_shader})\tGLCompletion",
+      "contents": "getShaderSource(${0:WebGLShader_shader})"
+    },
+    {
+      "trigger": "gl.compileShader(${0:WebGLShader_shader})\tGLCompletion",
+      "contents": "compileShader(${0:WebGLShader_shader})"
+    },
+    {
+      "trigger": "gl.getShaderInfoLog(${0:WebGLShader_shader})\tGLCompletion",
+      "contents": "getShaderInfoLog(${0:WebGLShader_shader})"
+    },
+    {
+      "trigger": "gl.isShader(${0:WebGLShader_shader})\tGLCompletion",
+      "contents": "isShader(${0:WebGLShader_shader})"
+    },
+    {
+      "trigger": "gl.getShaderParameter(${0:WebGLShader_shader}, enum_pname)\tGLCompletion",
+      "contents": "getShaderParameter(${0:WebGLShader_shader}, enum_pname)"
+    },
+    // Program Functions
     {
       "trigger": "gl.createProgram()\tGLCompletion",
       "contents": "createProgram()"
     },
     {
-      "trigger": "gl.attachShader()\tGLCompletion",
-      "contents": "attachShader(${0:program}, shader)"
+      "trigger": "gl.deleteProgram(${0:WebGLProgram_program})\tGLCompletion",
+      "contents": "deleteProgram(${0:WebGLProgram_program})"
     },
     {
-      "trigger": "gl.linkProgram()\tGLCompletion",
-      "contents": "linkProgram(${0:program})"
+      "trigger": "gl.linkProgram(${0:WebGLProgram_program})\tGLCompletion",
+      "contents": "linkProgram(${0:WebGLProgram_program})"
     },
     {
-      "trigger": "gl.getProgramParameter()\tGLCompletion",
-      "contents": "getProgramParameter(${0:program}, gl.LINK_STATUS)"
+      "trigger": "gl.getProgramInfoLog(${0:WebGLProgram_program})\tGLCompletion",
+      "contents": "getProgramInfoLog(${0:WebGLProgram_program})"
     },
     {
-      "trigger": "gl.useProgram()\tGLCompletion",
-      "contents": "useProgram()"
+      "trigger": "gl.validateProgram(${0:WebGLProgram_program})\tGLCompletion",
+      "contents": "validateProgram(${0:WebGLProgram_program})"
     },
     {
-      "trigger": "gl.getProgramInfoLog()\tGLCompletion",
-      "contents": "getProgramInfoLog(${0:program})"
+      "trigger": "gl.attachShader(${0:WebGLProgram_program}, WebGLShader_shader)\tGLCompletion",
+      "contents": "attachShader(${0:WebGLProgram_program}, WebGLShader_shader)"
     },
     {
-      "trigger": "gl.createBuffer()\tGLCompletion",
-      "contents": "createBuffer()"
+      "trigger": "gl.detachShader(${0:WebGLProgram_program}, WebGLShader_shader)\tGLCompletion",
+      "contents": "detachShader(${0:WebGLProgram_program}, WebGLShader_shader)"
     },
     {
-      "trigger": "gl.bindBuffer()\tGLCompletion",
-      "contents": "bindBuffer(${0:BUFFER_TYPE}, vbo)"
+      "trigger": "gl.getAttachedShaders(${0:WebGLProgram_program})\tGLCompletion",
+      "contents": "getAttachedShaders(${0:WebGLProgram_program})"
     },
     {
-      "trigger": "gl.bufferData()\tGLCompletion",
-      "contents": "bufferData(${0:BUFFER_TYPE}, TYPE, DRAW_TYPE)"
+      "trigger": "gl.getActiveAttrib(${0:WebGLProgram_program}, unit_index)\tGLCompletion",
+      "contents": "getActiveAttrib(${0:WebGLProgram_program}, unit_index)"
     },
     {
-      "trigger": "gl.createTexture()\tGLCompletion",
-      "contents": "createTexture()"
+      "trigger": "gl.getActiveUniform(${0:WebGLProgram_program}, unit_index)\tGLCompletion",
+      "contents": "getActiveUniform(${0:WebGLProgram_program}, unit_index)"
     },
     {
-      "trigger": "gl.bindTexture()\tGLCompletion",
-      "contents": "bindTexture(${0:TEXTURE_TYPE}, texture)"
+      "trigger": "gl.useProgram(${0:WebGLProgram_program})\tGLCompletion",
+      "contents": "useProgram(${0:WebGLProgram_program})"
     },
     {
-      "trigger": "gl.texImage2D()\tGLCompletion",
-      "contents": "texImage2D(${0:TEXTURE_TYPE}, NUMBER, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, image)"
+      "trigger": "gl.isProgram(${0:WebGLProgram_program})\tGLCompletion",
+      "contents": "isProgram(${0:WebGLProgram_program})"
     },
     {
-      "trigger": "gl.generateMipmap()\tGLCompletion",
-      "contents": "generateMipmap(${0:TEXTURE_TYPE})"
+      "trigger": "gl.getProgramParameter(${0:WebGLProgram_program}, enum_pname)\tGLCompletion",
+      "contents": "getProgramParameter(${0:WebGLProgram_program}, enum_pname)"
+    },
+    // Accessing Uniform Variables Function
+    {
+      "trigger": "gl.getUniformLocation(${0:WebGLProgram_program}, string_name)\tGLCompletion",
+      "contents": "getUniformLocation(${0:WebGLProgram_program}, string_name)"
     },
     {
-      "trigger": "gl.bindTexture()\tGLCompletion",
-      "contents": "bindTexture(${0:TEXTURE_TYPE}, null)"
+      "trigger": "gl.getUniform(${0:WebGLProgram_program}, WebGLUniformLocation_location)\tGLCompletion",
+      "contents": "getUniform(${0:WebGLProgram_program}, WebGLUniformLocation_location)"
     },
+    {
+      "trigger": "gl.uniform1f(${0:WebGLUniformLocation_location})\tGLCompletion",
+      "contents": "uniform1f(${0:WebGLUniformLocation_location})"
+    },
+    {
+      "trigger": "gl.uniform2f(${0:WebGLUniformLocation_location...})\tGLCompletion",
+      "contents": "uniform2f(${0:WebGLUniformLocation_location...})"
+    },
+    {
+      "trigger": "gl.uniform3f(${0:WebGLUniformLocation_location...})\tGLCompletion",
+      "contents": "uniform3f(${0:WebGLUniformLocation_location...})"
+    },
+    {
+      "trigger": "gl.uniform4f(${0:WebGLUniformLocation_location...})\tGLCompletion",
+      "contents": "uniform4f(${0:WebGLUniformLocation_location...})"
+    },
+    {
+      "trigger": "gl.uniform1i(${0:WebGLUniformLocation_location})\tGLCompletion",
+      "contents": "uniform1f(${0:WebGLUniformLocation_location})"
+    },
+    {
+      "trigger": "gl.uniform2i(${0:WebGLUniformLocation_location...})\tGLCompletion",
+      "contents": "uniform2f(${0:WebGLUniformLocation_location...})"
+    },
+    {
+      "trigger": "gl.uniform3i(${0:WebGLUniformLocation_location...})\tGLCompletion",
+      "contents": "uniform3f(${0:WebGLUniformLocation_location...})"
+    },
+    {
+      "trigger": "gl.uniform4i(${0:WebGLUniformLocation_location...})\tGLCompletion",
+      "contents": "uniform4f(${0:WebGLUniformLocation_location...})"
+    },
+    {
+      "trigger": "gl.uniform1fv(${0:WebGLUniformLocation_location}, Array_value)\tGLCompletion",
+      "contents": "uniform1fv(${0:WebGLUniformLocation_location}, Array_value)"
+    },
+    {
+      "trigger": "gl.uniform2fv(${0:WebGLUniformLocation_location}, Array_value)\tGLCompletion",
+      "contents": "uniform2fv(${0:WebGLUniformLocation_location}, Array_value)"
+    },
+    {
+      "trigger": "gl.uniform3fv(${0:WebGLUniformLocation_location}, Array_value)\tGLCompletion",
+      "contents": "uniform3fv(${0:WebGLUniformLocation_location}, Array_value)"
+    },
+    {
+      "trigger": "gl.uniform4fv(${0:WebGLUniformLocation_location}, Array_value)\tGLCompletion",
+      "contents": "uniform4fv(${0:WebGLUniformLocation_location}, Array_value)"
+    },
+    {
+      "trigger": "gl.uniform1iv(${0:WebGLUniformLocation_location}, Array_value)\tGLCompletion",
+      "contents": "uniform1iv(${0:WebGLUniformLocation_location}, Array_value)"
+    },
+    {
+      "trigger": "gl.uniform2iv(${0:WebGLUniformLocation_location}, Array_value)\tGLCompletion",
+      "contents": "uniform2iv(${0:WebGLUniformLocation_location}, Array_value)"
+    },
+    {
+      "trigger": "gl.uniform3iv(${0:WebGLUniformLocation_location}, Array_value)\tGLCompletion",
+      "contents": "uniform3iv(${0:WebGLUniformLocation_location}, Array_value)"
+    },
+    {
+      "trigger": "gl.uniform4iv(${0:WebGLUniformLocation_location}, Array_value)\tGLCompletion",
+      "contents": "uniform4iv(${0:WebGLUniformLocation_location}, Array_value)"
+    },
+    {
+      "trigger": "gl.uniformMatrix2fv(${0:WebGLUniformLocation_location}, boolean_transpose, Float32Array_value)\tGLCompletion",
+      "contents": "uniformMatrix2fv(${0:WebGLUniformLocation_location}, boolean_transpose, Float32Array_value)"
+    },
+    {
+      "trigger": "gl.uniformMatrix3fv(${0:WebGLUniformLocation_location}, boolean_transpose, Float32Array_value)\tGLCompletion",
+      "contents": "uniformMatrix3fv(${0:WebGLUniformLocation_location}, boolean_transpose, Float32Array_value)"
+    },
+    {
+      "trigger": "gl.uniformMatrix4fv(${0:WebGLUniformLocation_location}, boolean_transpose, Float32Array_value)\tGLCompletion",
+      "contents": "uniformMatrix4fv(${0:WebGLUniformLocation_location}, boolean_transpose, Float32Array_value)"
+    }
+    // TODO[VERTEX:ATTRIBUTES...]
+
+
+
+
+
+
   ]
 }
