@@ -206,7 +206,7 @@
     {
       "trigger": "gl.uniformMatrix4fv(${0:WebGLUniformLocation_location}, boolean_transpose, Float32Array_values)\tGLCompletion",
       "contents": "uniformMatrix4fv(${0:WebGLUniformLocation_location}, boolean_transpose, Float32Array_values)"
-    }
+    },
     // Vertext Attribute Functions
     {
       "trigger": "gl.enableVertexAttribArray(${0:unit_index})\tGLCompletion",
