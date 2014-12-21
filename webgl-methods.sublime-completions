@@ -1,0 +1,19 @@
+{
+  "scope": "source.js",
+
+  "completions":
+  [
+    {
+      "trigger": "gl.clearDepth\tGLCompletion",
+      "contents": "clearDepth(${0:depth})"
+    },
+    {
+      "trigger": "gl.clearColor(${0:r}, g, b, a)\tGLCompletion",
+      "contents": "clearColor(${0:r}, g, b, a)"
+    },
+    {
+      "trigger": "gl.clear()\tGLCompletion",
+      "contents": "clear(${0:arg|arg...})"
+    },
+  ]
+}

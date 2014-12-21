@@ -1,0 +1,23 @@
+{
+  "scope": "source.js",
+
+  "completions":
+  [
+    {
+      "trigger": "gl.VERTEX_SHADER\tGLCompletion",
+      "contents": "VERTEX_SHADER"
+    },
+    {
+      "trigger": "gl.FRAGMENT_SHADER\tGLCompletion",
+      "contents": "FRAGMENT_SHADER"
+    },
+    {
+      "trigger": "gl.COMPILE_STATUS\tGLCompletion",
+      "contents": "COMPILE_STATUS"
+    },
+    {
+      "trigger": "gl.LINK_STATUS\tGLCompletion",
+      "contents": "LINK_STATUS"
+    }
+  ]
+}
