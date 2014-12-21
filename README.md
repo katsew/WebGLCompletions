@@ -1,4 +1,4 @@
-# Sublime WebGL Copmletions
+# Sublime WebGL Completions
 This plugin gives you completions for WebGL.  
 It does **NOT** implement GLSL completions.
 
