@@ -6,559 +6,559 @@
     // Buffer Functions
     {
       "trigger": "gl.createBuffer\tGLCompletion",
-      "contents": "createBuffer()"
+      "contents": "gl.createBuffer()"
     },
     {
       "trigger": "gl.deleteBuffer(${0:WebGLBuffer_buffer})\tGLCompletion",
-      "contents": "deleteBuffer(${0:WebGLBuffer_buffer})"
+      "contents": "gl.deleteBuffer(${0:WebGLBuffer_buffer})"
     },
     {
       "trigger": "gl.bindBuffer(${0:enum_target}, WebGLBuffer_buffer)\tGLCompletion",
-      "contents": "bindBuffer(${0:enum_target}, WebGLBuffer_buffer)"
+      "contents": "gl.bindBuffer(${0:enum_target}, WebGLBuffer_buffer)"
     },
     {
       "trigger": "gl.bufferData(${0:enum_target}, Object_data, enum_usage)\tGLCompletion",
-      "contents": "bufferData(${0:enum_target}, Object_data, enum_usage)"
+      "contents": "gl.bufferData(${0:enum_target}, Object_data, enum_usage)"
     },
     {
       "trigger": "gl.bufferData(${0:enum_target}, unit_size, enum_usage)\tGLCompletion",
-      "contents": "bufferData(${0:enum_target}, unit_size, enum_usage)"
+      "contents": "gl.bufferData(${0:enum_target}, unit_size, enum_usage)"
     },
     {
       "trigger": "gl.bufferSubData(${0:enum_target}, Object_data, enum_usage)\tGLCompletion",
-      "contents": "bufferSubData(${0:enum_target}, Object_data, enum_usage)"
+      "contents": "gl.bufferSubData(${0:enum_target}, Object_data, enum_usage)"
     },
     {
       "trigger": "gl.getBufferParameter(${0:enum_target}, enum_pname)\tGLCompletion",
-      "contents": "getBufferParameter(${0:enum_target}, enum_pname)"
+      "contents": "gl.getBufferParameter(${0:enum_target}, enum_pname)"
     },
     {
       "trigger": "gl.isBuffer(${0:WebGLBuffer_buffer})\tGLCompletion",
-      "contents": "isBuffer(${0:WebGLBuffer_buffer})"
+      "contents": "gl.isBuffer(${0:WebGLBuffer_buffer})"
     },
     // Shader Functions
     {
       "trigger": "gl.createShader(${0:enum_type})\tGLCompletion",
-      "contents": "createShader(${0:enum_type})"
+      "contents": "gl.createShader(${0:enum_type})"
     },
     {
       "trigger": "gl.deleteShader(${0:WebGLShader_shader})\tGLCompletion",
-      "contents": "deleteShader(${0:WebGLShader_shader})"
+      "contents": "gl.deleteShader(${0:WebGLShader_shader})"
     },
     {
       "trigger": "gl.shaderSource(${0:WebGLShader_shader}, string_source)\tGLCompletion",
-      "contents": "shaderSource(${0:WebGLShader_shader}, string_source)"
+      "contents": "gl.shaderSource(${0:WebGLShader_shader}, string_source)"
     },
     {
       "trigger": "gl.getShaderSource(${0:WebGLShader_shader})\tGLCompletion",
-      "contents": "getShaderSource(${0:WebGLShader_shader})"
+      "contents": "gl.getShaderSource(${0:WebGLShader_shader})"
     },
     {
       "trigger": "gl.compileShader(${0:WebGLShader_shader})\tGLCompletion",
-      "contents": "compileShader(${0:WebGLShader_shader})"
+      "contents": "gl.compileShader(${0:WebGLShader_shader})"
     },
     {
       "trigger": "gl.getShaderInfoLog(${0:WebGLShader_shader})\tGLCompletion",
-      "contents": "getShaderInfoLog(${0:WebGLShader_shader})"
+      "contents": "gl.getShaderInfoLog(${0:WebGLShader_shader})"
     },
     {
       "trigger": "gl.isShader(${0:WebGLShader_shader})\tGLCompletion",
-      "contents": "isShader(${0:WebGLShader_shader})"
+      "contents": "gl.isShader(${0:WebGLShader_shader})"
     },
     {
       "trigger": "gl.getShaderParameter(${0:WebGLShader_shader}, enum_pname)\tGLCompletion",
-      "contents": "getShaderParameter(${0:WebGLShader_shader}, enum_pname)"
+      "contents": "gl.getShaderParameter(${0:WebGLShader_shader}, enum_pname)"
     },
     // Program Functions
     {
       "trigger": "gl.createProgram()\tGLCompletion",
-      "contents": "createProgram()"
+      "contents": "gl.createProgram()"
     },
     {
       "trigger": "gl.deleteProgram(${0:WebGLProgram_program})\tGLCompletion",
-      "contents": "deleteProgram(${0:WebGLProgram_program})"
+      "contents": "gl.deleteProgram(${0:WebGLProgram_program})"
     },
     {
       "trigger": "gl.linkProgram(${0:WebGLProgram_program})\tGLCompletion",
-      "contents": "linkProgram(${0:WebGLProgram_program})"
+      "contents": "gl.linkProgram(${0:WebGLProgram_program})"
     },
     {
       "trigger": "gl.getProgramInfoLog(${0:WebGLProgram_program})\tGLCompletion",
-      "contents": "getProgramInfoLog(${0:WebGLProgram_program})"
+      "contents": "gl.getProgramInfoLog(${0:WebGLProgram_program})"
     },
     {
       "trigger": "gl.validateProgram(${0:WebGLProgram_program})\tGLCompletion",
-      "contents": "validateProgram(${0:WebGLProgram_program})"
+      "contents": "gl.validateProgram(${0:WebGLProgram_program})"
     },
     {
       "trigger": "gl.attachShader(${0:WebGLProgram_program}, WebGLShader_shader)\tGLCompletion",
-      "contents": "attachShader(${0:WebGLProgram_program}, WebGLShader_shader)"
+      "contents": "gl.attachShader(${0:WebGLProgram_program}, WebGLShader_shader)"
     },
     {
       "trigger": "gl.detachShader(${0:WebGLProgram_program}, WebGLShader_shader)\tGLCompletion",
-      "contents": "detachShader(${0:WebGLProgram_program}, WebGLShader_shader)"
+      "contents": "gl.detachShader(${0:WebGLProgram_program}, WebGLShader_shader)"
     },
     {
       "trigger": "gl.getAttachedShaders(${0:WebGLProgram_program})\tGLCompletion",
-      "contents": "getAttachedShaders(${0:WebGLProgram_program})"
+      "contents": "gl.getAttachedShaders(${0:WebGLProgram_program})"
     },
     {
       "trigger": "gl.getActiveAttrib(${0:WebGLProgram_program}, unit_index)\tGLCompletion",
-      "contents": "getActiveAttrib(${0:WebGLProgram_program}, unit_index)"
+      "contents": "gl.getActiveAttrib(${0:WebGLProgram_program}, unit_index)"
     },
     {
       "trigger": "gl.getActiveUniform(${0:WebGLProgram_program}, unit_index)\tGLCompletion",
-      "contents": "getActiveUniform(${0:WebGLProgram_program}, unit_index)"
+      "contents": "gl.getActiveUniform(${0:WebGLProgram_program}, unit_index)"
     },
     {
       "trigger": "gl.useProgram(${0:WebGLProgram_program})\tGLCompletion",
-      "contents": "useProgram(${0:WebGLProgram_program})"
+      "contents": "gl.useProgram(${0:WebGLProgram_program})"
     },
     {
       "trigger": "gl.isProgram(${0:WebGLProgram_program})\tGLCompletion",
-      "contents": "isProgram(${0:WebGLProgram_program})"
+      "contents": "gl.isProgram(${0:WebGLProgram_program})"
     },
     {
       "trigger": "gl.getProgramParameter(${0:WebGLProgram_program}, enum_pname)\tGLCompletion",
-      "contents": "getProgramParameter(${0:WebGLProgram_program}, enum_pname)"
+      "contents": "gl.getProgramParameter(${0:WebGLProgram_program}, enum_pname)"
     },
     // Accessing Uniform Variables Function
     {
       "trigger": "gl.getUniformLocation(${0:WebGLProgram_program}, string_name)\tGLCompletion",
-      "contents": "getUniformLocation(${0:WebGLProgram_program}, string_name)"
+      "contents": "gl.getUniformLocation(${0:WebGLProgram_program}, string_name)"
     },
     {
       "trigger": "gl.getUniform(${0:WebGLProgram_program}, WebGLUniformLocation_location)\tGLCompletion",
-      "contents": "getUniform(${0:WebGLProgram_program}, WebGLUniformLocation_location)"
+      "contents": "gl.getUniform(${0:WebGLProgram_program}, WebGLUniformLocation_location)"
     },
     {
       "trigger": "gl.uniform1f(${0:WebGLUniformLocation_location})\tGLCompletion",
-      "contents": "uniform1f(${0:WebGLUniformLocation_location})"
+      "contents": "gl.uniform1f(${0:WebGLUniformLocation_location})"
     },
     {
       "trigger": "gl.uniform2f(${0:WebGLUniformLocation_location...})\tGLCompletion",
-      "contents": "uniform2f(${0:WebGLUniformLocation_location...})"
+      "contents": "gl.uniform2f(${0:WebGLUniformLocation_location...})"
     },
     {
       "trigger": "gl.uniform3f(${0:WebGLUniformLocation_location...})\tGLCompletion",
-      "contents": "uniform3f(${0:WebGLUniformLocation_location...})"
+      "contents": "gl.uniform3f(${0:WebGLUniformLocation_location...})"
     },
     {
       "trigger": "gl.uniform4f(${0:WebGLUniformLocation_location...})\tGLCompletion",
-      "contents": "uniform4f(${0:WebGLUniformLocation_location...})"
+      "contents": "gl.uniform4f(${0:WebGLUniformLocation_location...})"
     },
     {
       "trigger": "gl.uniform1i(${0:WebGLUniformLocation_location})\tGLCompletion",
-      "contents": "uniform1f(${0:WebGLUniformLocation_location})"
+      "contents": "gl.uniform1f(${0:WebGLUniformLocation_location})"
     },
     {
       "trigger": "gl.uniform2i(${0:WebGLUniformLocation_location...})\tGLCompletion",
-      "contents": "uniform2f(${0:WebGLUniformLocation_location...})"
+      "contents": "gl.uniform2f(${0:WebGLUniformLocation_location...})"
     },
     {
       "trigger": "gl.uniform3i(${0:WebGLUniformLocation_location...})\tGLCompletion",
-      "contents": "uniform3f(${0:WebGLUniformLocation_location...})"
+      "contents": "gl.uniform3f(${0:WebGLUniformLocation_location...})"
     },
     {
       "trigger": "gl.uniform4i(${0:WebGLUniformLocation_location...})\tGLCompletion",
-      "contents": "uniform4f(${0:WebGLUniformLocation_location...})"
+      "contents": "gl.uniform4f(${0:WebGLUniformLocation_location...})"
     },
     {
       "trigger": "gl.uniform1fv(${0:WebGLUniformLocation_location}, Array_value)\tGLCompletion",
-      "contents": "uniform1fv(${0:WebGLUniformLocation_location}, Array_value)"
+      "contents": "gl.uniform1fv(${0:WebGLUniformLocation_location}, Array_value)"
     },
     {
       "trigger": "gl.uniform2fv(${0:WebGLUniformLocation_location}, Array_value)\tGLCompletion",
-      "contents": "uniform2fv(${0:WebGLUniformLocation_location}, Array_value)"
+      "contents": "gl.uniform2fv(${0:WebGLUniformLocation_location}, Array_value)"
     },
     {
       "trigger": "gl.uniform3fv(${0:WebGLUniformLocation_location}, Array_value)\tGLCompletion",
-      "contents": "uniform3fv(${0:WebGLUniformLocation_location}, Array_value)"
+      "contents": "gl.uniform3fv(${0:WebGLUniformLocation_location}, Array_value)"
     },
     {
       "trigger": "gl.uniform4fv(${0:WebGLUniformLocation_location}, Array_value)\tGLCompletion",
-      "contents": "uniform4fv(${0:WebGLUniformLocation_location}, Array_value)"
+      "contents": "gl.uniform4fv(${0:WebGLUniformLocation_location}, Array_value)"
     },
     {
       "trigger": "gl.uniform1iv(${0:WebGLUniformLocation_location}, Array_value)\tGLCompletion",
-      "contents": "uniform1iv(${0:WebGLUniformLocation_location}, Array_value)"
+      "contents": "gl.uniform1iv(${0:WebGLUniformLocation_location}, Array_value)"
     },
     {
       "trigger": "gl.uniform2iv(${0:WebGLUniformLocation_location}, Array_value)\tGLCompletion",
-      "contents": "uniform2iv(${0:WebGLUniformLocation_location}, Array_value)"
+      "contents": "gl.uniform2iv(${0:WebGLUniformLocation_location}, Array_value)"
     },
     {
       "trigger": "gl.uniform3iv(${0:WebGLUniformLocation_location}, Array_value)\tGLCompletion",
-      "contents": "uniform3iv(${0:WebGLUniformLocation_location}, Array_value)"
+      "contents": "gl.uniform3iv(${0:WebGLUniformLocation_location}, Array_value)"
     },
     {
       "trigger": "gl.uniform4iv(${0:WebGLUniformLocation_location}, Array_value)\tGLCompletion",
-      "contents": "uniform4iv(${0:WebGLUniformLocation_location}, Array_value)"
+      "contents": "gl.uniform4iv(${0:WebGLUniformLocation_location}, Array_value)"
     },
     {
       "trigger": "gl.uniformMatrix2fv(${0:WebGLUniformLocation_location}, boolean_transpose, Float32Array_values)\tGLCompletion",
-      "contents": "uniformMatrix2fv(${0:WebGLUniformLocation_location}, boolean_transpose, Float32Array_values)"
+      "contents": "gl.uniformMatrix2fv(${0:WebGLUniformLocation_location}, boolean_transpose, Float32Array_values)"
     },
     {
       "trigger": "gl.uniformMatrix3fv(${0:WebGLUniformLocation_location}, boolean_transpose, Float32Array_values)\tGLCompletion",
-      "contents": "uniformMatrix3fv(${0:WebGLUniformLocation_location}, boolean_transpose, Float32Array_values)"
+      "contents": "gl.uniformMatrix3fv(${0:WebGLUniformLocation_location}, boolean_transpose, Float32Array_values)"
     },
     {
       "trigger": "gl.uniformMatrix4fv(${0:WebGLUniformLocation_location}, boolean_transpose, Float32Array_values)\tGLCompletion",
-      "contents": "uniformMatrix4fv(${0:WebGLUniformLocation_location}, boolean_transpose, Float32Array_values)"
+      "contents": "gl.uniformMatrix4fv(${0:WebGLUniformLocation_location}, boolean_transpose, Float32Array_values)"
     },
     // Vertext Attribute Functions
     {
       "trigger": "gl.enableVertexAttribArray(${0:unit_index})\tGLCompletion",
-      "contents": "enableVertexAttribArray(${0:unit_index})"
+      "contents": "gl.enableVertexAttribArray(${0:unit_index})"
     },
     {
       "trigger": "gl.disableVertexAttribArray(${0:unit_index})\tGLCompletion",
-      "contents": "disableVertexAttribArray(${0:unit_index})"
+      "contents": "gl.disableVertexAttribArray(${0:unit_index})"
     },
     {
       "trigger": "gl.getAttribLocation(${0:WebGLProgram_program}, string_name)\tGLCompletion",
-      "contents": "getAttribLocation(${0:WebGLProgram_program}, string_name)"
+      "contents": "gl.getAttribLocation(${0:WebGLProgram_program}, string_name)"
     },
     {
       "trigger": "gl.bindAttribLocation(${0:WebGLProgram_program}, unit_index, string_name)\tGLCompletion",
-      "contents": "bindAttribLocation(${0:WebGLProgram_program}, unit_index, string_name)"
+      "contents": "gl.bindAttribLocation(${0:WebGLProgram_program}, unit_index, string_name)"
     },
     {
       "trigger": "gl.getVertexAttrib(${0:unit_index}, enum_pname)\tGLCompletion",
-      "contents": "getVertexAttrib(${0:unit_index}, enum_pname)"
+      "contents": "gl.getVertexAttrib(${0:unit_index}, enum_pname)"
     },
     {
       "trigger": "gl.getVertexAttribOffset(${0:unit_index}, enum_pname)\tGLCompletion",
-      "contents": "getVertexAttribOffset(${0:unit_index}, enum_pname)"
+      "contents": "gl.getVertexAttribOffset(${0:unit_index}, enum_pname)"
     },
     {
       "trigger": "gl.vertexAttrib1f(${0:unit_index...})\tGLCompletion",
-      "contents": "vertexAttrib1f(${0:unit_index...})"
+      "contents": "gl.vertexAttrib1f(${0:unit_index...})"
     },
     {
       "trigger": "gl.vertexAttrib2f(${0:unit_index...})\tGLCompletion",
-      "contents": "vertexAttrib2f(${0:unit_index...})"
+      "contents": "gl.vertexAttrib2f(${0:unit_index...})"
     },
     {
       "trigger": "gl.vertexAttrib3f(${0:unit_index...})\tGLCompletion",
-      "contents": "vertexAttrib3f(${0:unit_index...})"
+      "contents": "gl.vertexAttrib3f(${0:unit_index...})"
     },
     {
       "trigger": "gl.vertexAttrib4f(${0:unit_index...})\tGLCompletion",
-      "contents": "vertexAttrib4f(${0:unit_index...})"
+      "contents": "gl.vertexAttrib4f(${0:unit_index...})"
     },
     {
       "trigger": "gl.vertexAttrib1fv(${0:unit_index}, Float32Array_values)\tGLCompletion",
-      "contents": "vertexAttrib1fv(${0:unit_index}, Float32Array_values)"
+      "contents": "gl.vertexAttrib1fv(${0:unit_index}, Float32Array_values)"
     },
     {
       "trigger": "gl.vertexAttrib2fv(${0:unit_index}, Float32Array_values)\tGLCompletion",
-      "contents": "vertexAttrib2fv(${0:unit_index}, Float32Array_values)"
+      "contents": "gl.vertexAttrib2fv(${0:unit_index}, Float32Array_values)"
     },
     {
       "trigger": "gl.vertexAttrib3fv(${0:unit_index}, Float32Array_values)\tGLCompletion",
-      "contents": "vertexAttrib3fv(${0:unit_index}, Float32Array_values)"
+      "contents": "gl.vertexAttrib3fv(${0:unit_index}, Float32Array_values)"
     },
     {
       "trigger": "gl.vertexAttrib4fv(${0:unit_index}, Float32Array_values)\tGLCompletion",
-      "contents": "vertexAttrib4fv(${0:unit_index}, Float32Array_values)"
+      "contents": "gl.vertexAttrib4fv(${0:unit_index}, Float32Array_values)"
     },
     {
       "trigger": "gl.vertexAttribPointer(${0:unit_index}, int_size, enum_type, boolean_normalized, int_stride, int_offset)\tGLCompletion",
-      "contents": "vertexAttribPointer(${0:unit_index}, int_size, enum_type, boolean_normalized, int_stride, int_offset)"
+      "contents": "gl.vertexAttribPointer(${0:unit_index}, int_size, enum_type, boolean_normalized, int_stride, int_offset)"
     },
     // Draw Functions
     {
       "trigger": "gl.viewport(${0:int_x}, int_y, int_width, int_height)\tGLCompletion",
-      "contents": "viewport(${0:int_x}, int_y, int_width, int_height)"
+      "contents": "gl.viewport(${0:int_x}, int_y, int_width, int_height)"
     },
     {
       "trigger": "gl.drawArrays(${0:enum_mode}, int_first, int_count)\tGLCompletion",
-      "contents": "drawArrays(${0:enum_mode}, int_first, int_count)"
+      "contents": "gl.drawArrays(${0:enum_mode}, int_first, int_count)"
     },
     {
       "trigger": "gl.drawElements(${0:enum_mode}, int_count, enum_type, int_offset)\tGLCompletion",
-      "contents": "drawElements(${0:enum_mode}, int_count, enum_type, int_offset)"
+      "contents": "gl.drawElements(${0:enum_mode}, int_count, enum_type, int_offset)"
     },
     {
       "trigger": "gl.flush()\tGLCompletion",
-      "contents": "flush()"
+      "contents": "gl.flush()"
     },
     {
       "trigger": "gl.finish()\tGLCompletion",
-      "contents": "finish()"
+      "contents": "gl.finish()"
     },
     // Texture Functions
     {
       "trigger": "gl.createTexture()\tGLCompletion",
-      "contents": "createTexture()"
+      "contents": "gl.createTexture()"
     },
     {
       "trigger": "gl.deleteTexture(${0:WebGLTexture_texture})\tGLCompletion",
-      "contents": "deleteTexture(${0:WebGLTexture_texture})"
+      "contents": "gl.deleteTexture(${0:WebGLTexture_texture})"
     },
     {
       "trigger": "gl.bindTexture(${0:enum_target}, WebGLTexture_texture)\tGLCompletion",
-      "contents": "bindTexture(${0:enum_target}, WebGLTexture_texture)"
+      "contents": "gl.bindTexture(${0:enum_target}, WebGLTexture_texture)"
     },
     {
       "trigger": "gl.activeTexture(${0:enum_texture})\tGLCompletion",
-      "contents": "activeTexture(${0:enum_texture})"
+      "contents": "gl.activeTexture(${0:enum_texture})"
     },
     {
       "trigger": "gl.generateMipmap(${0:enum_target})\tGLCompletion",
-      "contents": "generateMipmap(${0:enum_target})"
+      "contents": "gl.generateMipmap(${0:enum_target})"
     },
     {
       "trigger": "gl.texImage2D(${0:enum_target}, int_level, enum_internalformat, int_width, int_height, int_border, enum_format, enum_type, ArrayBufferView_pixels)\tGLCompletion",
-      "contents": "texImage2D(${0:enum_target}, int_level, enum_internalformat, int_width, int_height, int_border, enum_format, enum_type, ArrayBufferView_pixels)"
+      "contents": "gl.texImage2D(${0:enum_target}, int_level, enum_internalformat, int_width, int_height, int_border, enum_format, enum_type, ArrayBufferView_pixels)"
     },
     {
       "trigger": "gl.texImage2D(${0:enum_target}, int_level, enum_internalformat, enum_format, enum_type, Object_pixels)\tGLCompletion",
-      "contents": "texImage2D(${0:enum_target}, int_level, enum_internalformat, enum_format, enum_type, Object_pixels)"
+      "contents": "gl.texImage2D(${0:enum_target}, int_level, enum_internalformat, enum_format, enum_type, Object_pixels)"
     },
     {
       "trigger": "gl.texSubImage2D(${0:enum_target}, int_level, int_xoffset, int_yoffset, int_width, int_height, enum_format, enum_type, ArrayBufferView_pixels)\tGLCompletion",
-      "contents": "texSubImage2D(${0:enum_target}, int_level, int_xoffset, int_yoffset, int_width, int_height, enum_format, enum_type, ArrayBufferView_pixels)"
+      "contents": "gl.texSubImage2D(${0:enum_target}, int_level, int_xoffset, int_yoffset, int_width, int_height, enum_format, enum_type, ArrayBufferView_pixels)"
     },
     {
       "trigger": "gl.texSubImage2D(${0:enum_target}, int_level, int_xoffset, int_yoffset, enum_format, enum_type, Object_pixels)\tGLCompletion",
-      "contents": "texSubImage2D(${0:enum_target}, int_level, int_xoffset, int_yoffset, enum_format, enum_type, Object_pixels)"
+      "contents": "gl.texSubImage2D(${0:enum_target}, int_level, int_xoffset, int_yoffset, enum_format, enum_type, Object_pixels)"
     },
     {
       "trigger": "gl.copyTexImage2D(${0:enum_target}, int_level, enum_internalformat, int_x, int_y, int_width, int_height, int_border)\tGLCompletion",
-      "contents": "copyTexImage2D(${0:enum_target}, int_level, enum_internalformat, int_x, int_y, int_width, int_height, int_border)"
+      "contents": "gl.copyTexImage2D(${0:enum_target}, int_level, enum_internalformat, int_x, int_y, int_width, int_height, int_border)"
     },
     {
       "trigger": "gl.copyTexSubImage2D(${0:enum_target}, int_level, int_xoffset, int_yoffset, int_x, int_y, int_width, int_height)\tGLCompletion",
-      "contents": "copyTexSubImage2D(${0:enum_target}, int_level, int_xoffset, int_yoffset, int_x, int_y, int_width, int_height)"
+      "contents": "gl.copyTexSubImage2D(${0:enum_target}, int_level, int_xoffset, int_yoffset, int_x, int_y, int_width, int_height)"
     },
     {
       "trigger": "gl.isTexture(${0:WebGLTexture_texture})\tGLCompletion",
-      "contents": "isTexture(${0:WebGLTexture_texture})"
+      "contents": "gl.isTexture(${0:WebGLTexture_texture})"
     },
     {
       "trigger": "gl.texParameterf(${0:enum_target}, enum_pname, float_param)\tGLCompletion",
-      "contents": "texParameterf(${0:enum_target}, enum_pname, float_param)"
+      "contents": "gl.texParameterf(${0:enum_target}, enum_pname, float_param)"
     },
     {
       "trigger": "gl.texParameteri(${0:enum_target}, enum_pname, int_param)\tGLCompletion",
-      "contents": "texParameteri(${0:enum_target}, enum_pname, int_param)"
+      "contents": "gl.texParameteri(${0:enum_target}, enum_pname, int_param)"
     },
     {
       "trigger": "gl.getTexParameter(${0:enum_target}, enum_pname)\tGLCompletion",
-      "contents": "getTexParameter(${0:enum_target}, enum_pname)"
+      "contents": "gl.getTexParameter(${0:enum_target}, enum_pname)"
     },
     // Blend Functions
     {
       "trigger": "gl.blendEquation(${0:enum_mode})\tGLCompletion",
-      "contents": "blendEquation(${0:enum_mode})"
+      "contents": "gl.blendEquation(${0:enum_mode})"
     },
     {
       "trigger": "gl.blendEquationSeparate(${0:enum_modeRGB}, enum_modeAlpha)\tGLCompletion",
-      "contents": "blendEquationSeparate(${0:enum_modeRGB}, enum_modeAlpha)"
+      "contents": "gl.blendEquationSeparate(${0:enum_modeRGB}, enum_modeAlpha)"
     },
     {
       "trigger": "gl.blendFunc(${0:enum_sfactor}, enum_dfactor)\tGLCompletion",
-      "contents": "blendFunc(${0:enum_sfactor}, enum_dfactor)"
+      "contents": "gl.blendFunc(${0:enum_sfactor}, enum_dfactor)"
     },
     {
       "trigger": "gl.blendFuncSeparate(${0:enum_srcRGB}, enum_dstRGB, enum_srcAlpha, enum_dstAlpha)\tGLCompletion",
-      "contents": "blendFuncSeparate(${0:enum_srcRGB}, enum_dstRGB, enum_srcAlpha, enum_dstAlpha)"
+      "contents": "gl.blendFuncSeparate(${0:enum_srcRGB}, enum_dstRGB, enum_srcAlpha, enum_dstAlpha)"
     },
     {
       "trigger": "gl.blendColor(${0:float_red}, float_green, float_blue, float_alpha)\tGLCompletion",
-      "contents": "blendColor(${0:float_red}, float_green, float_blue, float_alpha)"
+      "contents": "gl.blendColor(${0:float_red}, float_green, float_blue, float_alpha)"
     },
     // Stencil Buffer Functions
     {
       "trigger": "gl.clearStencil(${0:int_a})\tGLCompletion",
-      "contents": "clearStencil(${0:int_a})"
+      "contents": "gl.clearStencil(${0:int_a})"
     },
     {
       "trigger": "gl.stencilFunc(${0:enum_func}, int_ref, int_mask)\tGLCompletion",
-      "contents": "stencilFunc(${0:enum_func}, int_ref, int_mask)"
+      "contents": "gl.stencilFunc(${0:enum_func}, int_ref, int_mask)"
     },
     {
       "trigger": "gl.stencilFuncSeparate(${0:enum_face}, enum_func, int_ref, int_mask)\tGLCompletion",
-      "contents": "stencilFuncSeparate(${0:enum_face}, enum_func, int_ref, int_mask)"
+      "contents": "gl.stencilFuncSeparate(${0:enum_face}, enum_func, int_ref, int_mask)"
     },
     {
       "trigger": "gl.stencilMask(${0:unit_mask})\tGLCompletion",
-      "contents": "stencilMask(${0:unit_mask})"
+      "contents": "gl.stencilMask(${0:unit_mask})"
     },
     {
       "trigger": "gl.stencilMaskSeparate(${0:enum_face}, unit_mask)\tGLCompletion",
-      "contents": "stencilMaskSeparate(${0:enum_face}, unit_mask)"
+      "contents": "gl.stencilMaskSeparate(${0:enum_face}, unit_mask)"
     },
     {
       "trigger": "gl.stencilOp(${0:enum_fail}, enum_zfail, enum_zpass)\tGLCompletion",
-      "contents": "stencilOp(${0:enum_fail}, enum_zfail, enum_zpass)"
+      "contents": "gl.stencilOp(${0:enum_fail}, enum_zfail, enum_zpass)"
     },
     {
       "trigger": "gl.stencilOpSeparate(${0:enum_face}, enum_fail, enum_zfail, enum_zpass)\tGLCompletion",
-      "contents": "stencilOpSeparate(${0:enum_face}, enum_fail, enum_zfail, enum_zpass)"
+      "contents": "gl.stencilOpSeparate(${0:enum_face}, enum_fail, enum_zfail, enum_zpass)"
     },
     // Depth Buffer Functions
     {
       "trigger": "gl.depthFunc(${0:enum_func})\tGLCompletion",
-      "contents": "depthFunc(${0:enum_func})"
+      "contents": "gl.depthFunc(${0:enum_func})"
     },
     {
       "trigger": "gl.depthMask(${0:boolean_flag})\tGLCompletion",
-      "contents": "depthMask(${0:boolean_flag})"
+      "contents": "gl.depthMask(${0:boolean_flag})"
     },
     {
       "trigger": "gl.depthRange(${0:float_zNear}, float_zFar)\tGLCompletion",
-      "contents": "depthRange(${0:float_zNear}, float_zFar)"
+      "contents": "gl.depthRange(${0:float_zNear}, float_zFar)"
     },
     {
       "trigger": "gl.clearDepth(${0:float_depth})\tGLCompletion",
-      "contents": "clearDepth(${0:float_depth})"
+      "contents": "gl.clearDepth(${0:float_depth})"
     },
     {
       "trigger": "gl.polygonOffset(${0:float_factor}, float_units)\tGLCompletion",
-      "contents": "polygonOffset(${0:float_factor}, float_units)"
+      "contents": "gl.polygonOffset(${0:float_factor}, float_units)"
     },
     // Rendering Buffer Functions
     {
       "trigger": "gl.createRenderbuffer()\tGLCompletion",
-      "contents": "createRenderbuffer()"
+      "contents": "gl.createRenderbuffer()"
     },
     {
       "trigger": "gl.deleteRenderbuffer(${0:WebGLRenderBuffer_renderBuffer})\tGLCompletion",
-      "contents": "deleteRenderbuffer(${0:WebGLRenderBuffer_renderBuffer})"
+      "contents": "gl.deleteRenderbuffer(${0:WebGLRenderBuffer_renderBuffer})"
     },
     {
       "trigger": "gl.bindRenderbuffer(${0:enum_target}, WebGLRenderBuffer_renderBuffer)\tGLCompletion",
-      "contents": "bindRenderbuffer(${0:enum_target}, WebGLRenderBuffer_renderBuffer)"
+      "contents": "gl.bindRenderbuffer(${0:enum_target}, WebGLRenderBuffer_renderBuffer)"
     },
     {
       "trigger": "gl.renderbufferStorage(${0:enum_target}, enum_internalformat, int_width, int_height)\tGLCompletion",
-      "contents": "renderbufferStorage(${0:enum_target}, enum_internalformat, int_width, int_height)"
+      "contents": "gl.renderbufferStorage(${0:enum_target}, enum_internalformat, int_width, int_height)"
     },
     {
       "trigger": "gl.framebufferRenderbuffer(${0:enum_target}, enum_attachment, enum_renderBufferTarget, WebGLRenderBuffer_renderBuffer)\tGLCompletion",
-      "contents": "framebufferRenderbuffer(${0:enum_target}, enum_attachment, enum_renderBufferTarget, WebGLRenderBuffer_renderBuffer)"
+      "contents": "gl.framebufferRenderbuffer(${0:enum_target}, enum_attachment, enum_renderBufferTarget, WebGLRenderBuffer_renderBuffer)"
     },
     {
       "trigger": "gl.isRenderbuffer(${0:WebGLRenderBuffer_renderBuffer})\tGLCompletion",
-      "contents": "isRenderbuffer(${0:WebGLRenderBuffer_renderBuffer})"
+      "contents": "gl.isRenderbuffer(${0:WebGLRenderBuffer_renderBuffer})"
     },
     {
       "trigger": "gl.getRenderbufferParameter(${0:enum_target}, enum_pname)\tGLCompletion",
-      "contents": "getRenderbufferParameter(${0:enum_target}, enum_pname)"
+      "contents": "gl.getRenderbufferParameter(${0:enum_target}, enum_pname)"
     },
     // Frame Buffer Functions
     {
       "trigger": "gl.createFramebuffer()\tGLCompletion",
-      "contents": "createFramebuffer()"
+      "contents": "gl.createFramebuffer()"
     },
     {
       "trigger": "gl.deleteFramebuffer(${0:WebGLFramebuffer_framebuffer})\tGLCompletion",
-      "contents": "deleteFramebuffer(${0:WebGLFramebuffer_framebuffer})"
-    },  
+      "contents": "gl.deleteFramebuffer(${0:WebGLFramebuffer_framebuffer})"
+    },
     {
       "trigger": "gl.bindFramebuffer(${0:enum_target}, WebGLFramebuffer_framebuffer)\tGLCompletion",
-      "contents": "bindFramebuffer(${0:enum_target}, WebGLFramebuffer_framebuffer)"
-    },  
+      "contents": "gl.bindFramebuffer(${0:enum_target}, WebGLFramebuffer_framebuffer)"
+    },
     {
       "trigger": "gl.checkFramebufferStatus(${0:enum_target})\tGLCompletion",
-      "contents": "checkFramebufferStatus(${0:enum_target})"
-    },  
+      "contents": "gl.checkFramebufferStatus(${0:enum_target})"
+    },
     {
       "trigger": "gl.isFramebuffer(${0:WebGLFramebuffer_framebuffer})\tGLCompletion",
-      "contents": "isFramebuffer(${0:WebGLFramebuffer_framebuffer})"
-    },  
+      "contents": "gl.isFramebuffer(${0:WebGLFramebuffer_framebuffer})"
+    },
     {
       "trigger": "gl.framebufferTexture2D(${0:enum_target}, enum_attachment, enum_texTarget, WebGLTexture_texture, int_level)\tGLCompletion",
-      "contents": "framebufferTexture2D(${0:enum_target}, enum_attachment, enum_texTarget, WebGLTexture_texture, int_level)"
-    },  
+      "contents": "gl.framebufferTexture2D(${0:enum_target}, enum_attachment, enum_texTarget, WebGLTexture_texture, int_level)"
+    },
     {
       "trigger": "gl.getFramebufferAttachmentParameter(${0:enum_target}, enum_attachment, enum_pname)\tGLCompletion",
-      "contents": "getFramebufferAttachmentParameter(${0:enum_target}, enum_attachment, enum_pname)"
-    },  
+      "contents": "gl.getFramebufferAttachmentParameter(${0:enum_target}, enum_attachment, enum_pname)"
+    },
     {
       "trigger": "gl.colorMask(${0:boolean_red}, boolean_green, boolean_blue, boolean_alpha)\tGLCompletion",
-      "contents": "colorMask(${0:boolean_red}, boolean_green, boolean_blue, boolean_alpha)"
-    },  
+      "contents": "gl.colorMask(${0:boolean_red}, boolean_green, boolean_blue, boolean_alpha)"
+    },
     {
       "trigger": "gl.readPixels(${0:int_x}, int_y, int_width, int_height, enum_format, enum_type, ArrayBufferView_pixels)\tGLCompletion",
-      "contents": "readPixels(${0:int_x}, int_y, int_width, int_height, enum_format, enum_type, ArrayBufferView_pixels)"
-    },  
+      "contents": "gl.readPixels(${0:int_x}, int_y, int_width, int_height, enum_format, enum_type, ArrayBufferView_pixels)"
+    },
     {
       "trigger": "gl.pixelStorei(${0:enum_pname}, any_param)\tGLCompletion",
-      "contents": "pixelStorei(${0:enum_pname}, any_param)"
+      "contents": "gl.pixelStorei(${0:enum_pname}, any_param)"
     },
     // MISC Functions
     {
       "trigger": "gl.enable(${0:enum_cap})\tGLCompletion",
-      "contents": "enable(${0:enum_cap})"
+      "contents": "gl.enable(${0:enum_cap})"
     },
     {
       "trigger": "gl.disable(${0:enum_cap})\tGLCompletion",
-      "contents": "disable(${0:enum_cap})"
+      "contents": "gl.disable(${0:enum_cap})"
     },
     {
       "trigger": "gl.isEnabled(${0:enum_cap})\tGLCompletion",
-      "contents": "isEnabled(${0:enum_cap})"
+      "contents": "gl.isEnabled(${0:enum_cap})"
     },
     {
       "trigger": "gl.cullFace(${0:enum_mode})\tGLCompletion",
-      "contents": "cullFace(${0:enum_mode})"
+      "contents": "gl.cullFace(${0:enum_mode})"
     },
     {
       "trigger": "gl.frontFace(${0:enum_mode})\tGLCompletion",
-      "contents": "frontFace(${0:enum_mode})"
+      "contents": "gl.frontFace(${0:enum_mode})"
     },
     {
       "trigger": "gl.clear(${0:unit_mask})\tGLCompletion",
-      "contents": "clear(${0:unit_mask})"
+      "contents": "gl.clear(${0:unit_mask})"
     },
     {
       "trigger": "gl.clearColor(${0:float_red}, float_green, float_blue, float_alpha)\tGLCompletion",
-      "contents": "clearColor(${0:float_red}, float_green, float_blue, float_alpha)"
+      "contents": "gl.clearColor(${0:float_red}, float_green, float_blue, float_alpha)"
     },
     {
       "trigger": "gl.lineWidth(${0:float_width})\tGLCompletion",
-      "contents": "lineWidth(${0:float_width})"
+      "contents": "gl.lineWidth(${0:float_width})"
     },
     {
       "trigger": "gl.scissor(${0:int_x}, int_y, int_width, int_height)\tGLCompletion",
-      "contents": "scissor(${0:int_x}, int_y, int_width, int_height)"
+      "contents": "gl.scissor(${0:int_x}, int_y, int_width, int_height)"
     },
     {
       "trigger": "gl.sampleCoverage(${0:float_value}, boolean_invert)\tGLCompletion",
-      "contents": "sampleCoverage(${0:float_value}, boolean_invert)"
+      "contents": "gl.sampleCoverage(${0:float_value}, boolean_invert)"
     },
     {
       "trigger": "gl.getError()\tGLCompletion",
-      "contents": "getError()"
+      "contents": "gl.getError()"
     },
     {
       "trigger": "gl.hint(${0:enum_target}, enum_mode)\tGLCompletion",
-      "contents": "hint(${0:enum_target}, enum_mode)"
+      "contents": "gl.hint(${0:enum_target}, enum_mode)"
     },
     {
       "trigger": "gl.getSupportedExtensions()\tGLCompletion",
-      "contents": "getSupportedExtensions()"
+      "contents": "gl.getSupportedExtensions()"
     },
     {
       "trigger": "gl.getExtension(${0:string_name})\tGLCompletion",
-      "contents": "getExtension(${0:string_name})"
+      "contents": "gl.getExtension(${0:string_name})"
     },
     {
       "trigger": "gl.getContextAttributes()\tGLCompletion",
-      "contents": "getContextAttributes()"
+      "contents": "gl.getContextAttributes()"
     },
     {
       "trigger": "gl.isContextLost()\tGLCompletion",
-      "contents": "isContextLost()"
+      "contents": "gl.isContextLost()"
     },
     {
       "trigger": "gl.getParameter(${0:enum_pname})\tGLCompletion",
-      "contents": "getParameter(${0:enum_pname})"
+      "contents": "gl.getParameter(${0:enum_pname})"
     }
   ]
 }
