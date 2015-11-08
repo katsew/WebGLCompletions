@@ -225,8 +225,8 @@
       "contents": "gl.TEXTURE_MIN_FILTER"
     },
     {
-      "trigger": "gl.TEXTURE_MAX_FILTER\tGLCompletion",
-      "contents": "gl.TEXTURE_MAX_FILTER"
+      "trigger": "gl.TEXTURE_MAG_FILTER\tGLCompletion",
+      "contents": "gl.TEXTURE_MAG_FILTER"
     },
     {
       "trigger": "gl.NEAREST\tGLCompletion",
