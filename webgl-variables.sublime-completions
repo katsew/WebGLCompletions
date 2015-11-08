@@ -5,6 +5,10 @@
   [
     // Buffer Variables
     {
+      "trigger": "gl.FRAMEBUFFER\tGLCompletion",
+      "contents": "gl.FRAMEBUFFER"
+    },
+    {
       "trigger": "gl.ARRAY_BUFFER\tGLCompletion",
       "contents": "gl.ARRAY_BUFFER"
     },
